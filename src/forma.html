@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rezervacija | FootballTraveller</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="#">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="./index.html"><img src="../img/logo.png"></a>
+        </div>
+        
+        <ul class="nav-linkovi">
+            <li><a href="./index.html">Početna</a></li> 
+            <li><a href="./destinacije.html">Destinacije</a></li>
+            <li><a href="./forma.html">Rezervacija</a></li>
+        </ul>
+    </nav>
+ 
+    <main>
+        <h2 id="formaG">Unesite podatke i izaberite destinaciju:</h2>
+        <div>
+            <form action="" id="forma">
+                   <label for="ime">Vaše ime i prezime:</label> 
+                   <br>
+                   <input type="text" name="" id="ime" size="30px" required="required">
+                   <br>
+                   <br>
+                   <label for="telefon">Vaš kontakt telefon:</label> 
+                   <br>
+                   <input type="tel" name="" id="telefon" size="30px" required="required">
+                    <br>
+                    <br>
+                    <label for="grad">Mesto polaska:</label>
+                    <br>
+                    <select name="" id="grad" required="required">
+                        <option value="" disabled selected>Izaberite grad</option>
+                        <option value="Beograd">Beograd</option>
+                        <option value="Novi Sad">Novi Sad</option>
+                        <option value="Niš">Niš</option>
+                    </select>
+                    <br>
+                    <br>
+                    <label for="dest">Destinacija:</label>
+                    <br>
+                    <select name="" id="dest" required="required">
+                        <option value="" disabled selected>Izaberite destinaciju</option>
+                        <option value="Barselona">Barselona</option>
+                        <option value="Madrid">Madrid</option>
+                        <option value="Amsterdam">Amsterdam</option>
+                        <option value="Lisabon">Lisabon</option>
+                        <option value="Minhen">Minhen</option>
+                        <option value="London">London</option>
+                        <option value="Istanbul">Istanbul</option>
+                        <option value="Milano">Milano</option>
+                    </select>
+                    <br>
+                    <br>
+                    <label for="prevoz">Tip prevoza</label>
+                    <br>
+                    <select name="" id="prevoz" required="required">
+                        <option value="" disabled selected>Izaberite prevoz</option>
+                        <option value="Avion">Avion</option>
+                        <option value="Autobus">Autobus</option>
+                    </select>
+                    <br>
+                    <br>
+                    <label for="napomena">Napomene:</label>
+                    <br>
+                    <textarea name="" id="napomena" cols="32" rows="9" placeholder="Opis" required="required"></textarea>
+                    <br>
+                    <button type="submit" id="dugme">Rezerviši</button>
+             </form>
+        </div>
+    </main>
+ 
+    <footer>
+    </footer>
+ 
+    <a href="#" class="to-top">
+        <div class="arrow">^</div>
+    </a>
+    
+</body>
+</html>
